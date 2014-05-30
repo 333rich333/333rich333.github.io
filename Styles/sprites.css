@@ -35,51 +35,39 @@ li{
 		background-position: 2048px 0px;
 	}
 }
-body{
+#body{
 	background-image: url("../Images/ghost.png");
 	display: inline-block;
 	background-position: 0px 0px;
 	margin: 0px auto;
 	padding: 0;
-	background-color: #283048;
 }
-body{
+#body{
 	animation: Caves .6s steps(4) infinite;
 	-webkit-animation: Caves .6s steps(4) infinite;
 	-moz-animation: Caves .6s steps(4) infinite;
 }
 table{
-	background-color: #283048;
-}
-#body{
-	background-color: #283048;
-	position: relative;
-	margin: 0px auto;
 }
 
 #Container{
-	background-color: #283048;
 	min-width: 800px;
 	position: relative;
 	margin: 0px auto;
 }
 #about{
 	color: #989040;
-	background-color: #283048;
 }
 #p{
 	color: #C0C078;
-	background-color: #283048;
 }
 #Title{
 	color: #C0C078;
-	background-color: #283048;
 	margin: 0px auto;
 	min-width: 800px;
 }
 
 #Top{
-	background-color: #283048;
 	color: white;
 	width: 100%;
 }
@@ -385,7 +373,7 @@ table{
 	position: absolute;
 	float: left;
 	margin-left: 200px;
-	top: 236px;
+	top: 266px;
 }
 #Ground{
 	display: inline-block;
