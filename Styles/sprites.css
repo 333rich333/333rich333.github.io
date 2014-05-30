@@ -373,7 +373,7 @@ table{
 	position: absolute;
 	float: left;
 	margin-left: 200px;
-	top: 266px;
+	top: 246px;
 }
 #Ground{
 	display: inline-block;
@@ -385,7 +385,6 @@ table{
 	z-index: 12;
 	position: relative;
 	margin-top:  199px;
-	margin
 }
 #sky{
 	display: inline-block;
@@ -412,4 +411,9 @@ table{
 	animation: sky 18s linear infinite;
 	-webkit-animation: sky 18s linear infinite;
 	-moz-animation: sky 18s linear infinite;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+/* Safari and Chrome */
+#Character {
+ top: 242px;
 }
