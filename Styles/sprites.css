@@ -19,34 +19,67 @@ li{
 		background-position: 2048px 0px;
 	}
 }
+@-webkit-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 2048px 0px;
+	}
+}
+@-moz-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 2048px 0px;
+	}
+}
 body{
 	background-image: url("../Images/ghost.png");
 	display: inline-block;
 	background-position: 0px 0px;
-	margin: 0;
+	margin: 0px auto;
 	padding: 0;
+	background-color: #283048;
 }
 body{
 	animation: Caves .6s steps(4) infinite;
+	-webkit-animation: Caves .6s steps(4) infinite;
+	-moz-animation: Caves .6s steps(4) infinite;
 }
-
+table{
+	background-color: #283048;
+}
 #body{
-	background-color: black;
+	background-color: #283048;
 	position: relative;
-	margin: 0 auto;
+	margin: 0px auto;
 }
 
 #Container{
-	background-color: #3E4F60;
-	width: 800px;
+	background-color: #283048;
+	min-width: 800px;
 	position: relative;
-	margin: 0 auto;
+	margin: 0px auto;
 }
-#about
-#Title
+#about{
+	color: #989040;
+	background-color: #283048;
+}
+#p{
+	color: #C0C078;
+	background-color: #283048;
+}
+#Title{
+	color: #C0C078;
+	background-color: #283048;
+	margin: 0px auto;
+	min-width: 800px;
+}
 
 #Top{
-	background-color: #3E4F60;
+	background-color: #283048;
 	color: white;
 	width: 100%;
 }
@@ -195,6 +228,22 @@ body{
 		background-position: 160px 0px;
 	}
 }
+@-webkit-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+@-moz-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
 #Youtube{
 	height: 40px;
 	width: 84px;
@@ -234,6 +283,8 @@ body{
 }
 #Twitter:hover{
 	animation: twitter .4s steps(4) infinite;
+	-webkit-animation: twitter .4s steps(4) infinite;
+	-moz-animation: twitter .4s steps(4) infinite;
 }
 #Links{
 	float: right;
@@ -260,6 +311,54 @@ body{
 	}
 }
 @keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
+}
+@-webkit-keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
+}
+@-moz-keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
+}
+@-webkit-keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@-moz-keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@-webkit-keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
+}
+@-moz-keyframes sky{
 	from{
 		background-position: 511px 0px;
 	}
@@ -313,21 +412,16 @@ body{
 
 #Character{ 
 	animation: Mario .2s steps(2) infinite;
+	-webkit-animation: Mario .2s steps(2) infinite;
+	-moz-animation: Mario .2s steps(2) infinite;
 }
 #Ground{
 	animation: ground 1s linear infinite;
+	-webkit-animation: ground 1s linear infinite;
+	-moz-animation: ground 1s linear infinite;
 }
 #sky{
 	animation: sky 18s linear infinite;
-}
-@keyframes mario2{
-	to{}
-	from{}
-}
-#Jump{
-	height: 22px;
-	width: 20px;
-	display: inline-block;
-	background-image: url("../Images/jump.png");
-	background-position: 5px 0px;
+	-webkit-animation: sky 18s linear infinite;
+	-moz-animation: sky 18s linear infinite;
 }

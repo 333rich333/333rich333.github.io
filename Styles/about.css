@@ -23,6 +23,7 @@ li{
 	margin: 0 auto;
 }
 /* Colors: #524A4B #585048 */
+#about{}
 
 #Top{
 	background-color: #524A4B;
@@ -176,6 +177,22 @@ li{
 		background-position: 160px 0px;
 	}
 }
+@-webkit-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+@-moz-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
 #Youtube{
 	height: 40px;
 	width: 84px;
@@ -215,6 +232,8 @@ li{
 }
 #Twitter:hover{
 	animation: twitter .4s steps(4) infinite;
+	-webkit-animation: twitter .4s steps(4) infinite;
+	-moz-animation: twitter .4s steps(4) infinite;
 }
 #Links{
 	float: right;
@@ -231,6 +250,22 @@ li{
 		background-position: -2048px 0px;
 	}
 }
+@-webkit-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -2048px 0px;
+	}
+}
+@-moz-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -2048px 0px;
+	}
+}
 body{
 	background-image: url("../Images/cave2.png");
 	display: inline-block;
@@ -239,4 +274,6 @@ body{
 }
 body{
 	animation: Caves .6s steps(4) infinite;
+	-webkit-animation: Caves .6s steps(4) infinite;
+	-moz-animation: Caves .6s steps(4) infinite;
 }
