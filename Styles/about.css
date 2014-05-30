@@ -1,0 +1,242 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li{
+	Margin: 0;
+	Padding: 0;
+}
+.clear{clear: both}
+body{
+	background-image: url("../Images/castle1.png");}
+img{
+	width: 10%;
+}
+li{
+	margin-left: 0;
+}
+
+#body{
+	background-color: black;
+}
+
+#Container{
+	color: #001820;
+	width: 800px;
+	margin: 0 auto;
+}
+/* Colors: #524A4B #585048 */
+
+#Top{
+	background-color: #524A4B;
+	color: white;
+	width: 100%;
+	min-height: 200px;
+}
+#Top h1 a{
+	text-transform: none;
+	background-color: #524A4B;
+	color: white;
+	text-decoration: none;
+}
+
+#Nav{
+	background-color: #0000c3;
+	color: white;
+	width: 100%;
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+#Pic{
+	margin-top: 150px;
+}
+
+#SideL{
+	float: left;
+	width: 15%;
+}
+
+#SideM{
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#SideM h3{
+	color: #0064B8;
+}
+#SideM{
+	color: #70B0D0;
+}
+#SideR{
+	float: right;
+	width: 10%;
+}
+
+#bottom ul li h4{
+	list-style: none;
+	float: none;
+	position: relative;
+	display: inline-block;
+	font-size: 28px;
+	border-right: 3px solid red;
+}
+
+#bottom ul li{
+	list-style: none;
+	float: none;
+	position: relative;
+	display: inline-block;
+	font-size: 28px;
+	border-right: 3px solid red;
+}
+
+#Overworld{
+	text-transform: none;
+	margin-left: 20px;
+	font-size: 26px;
+}
+
+/* Top Level Nav */
+#Nav ul{}
+#Nav ul li{
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #0000c3;
+	display: inline-block;
+	text-transform: none;
+	font-size: 40px;
+	min-width: 30%;
+	border-right: 3px solid red;
+	border-radius: 25px;
+	margin-left: 12.5%;
+	text-indent: 16px;
+	border: 4px solid #000099;
+}
+#Nav ul li ul li{
+	border-radius: 25px;
+	min-width: 100%;
+	border: 4px solid #000099;
+}
+#Nav ul li:first-child a{
+	border-left: none;
+}
+
+#Nav ul li:hover a{
+	border-right: none;
+	color: white;
+	background-color: #0000c3;
+}
+
+
+
+/* Sub Level Nav */
+
+#Nav ul li ul{
+	position: absolute;
+	left: -9999px;
+	font-size: 22px;
+	border-left: none;
+	color: white;
+}
+
+#Nav ul li:hover ul{
+	left: 0px;
+}
+
+#Nav ul li ul li{
+	font-size: 22px;
+	border-left: none;
+}
+#Nav ul li ul:hover li{
+	left: 0px;
+}
+#Nav ul li ul li:hover a{
+	font-size: 30px;
+}
+#troll{
+	text-transform: none;
+}
+
+.1{
+	min-width: 300px;
+	min-height: 250px;
+}
+
+.2{
+	min-width: 300px;
+	min-height: 250px;
+}
+
+/* Media Links */
+@keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+#Youtube{
+	height: 40px;
+	width: 84px;
+	display: inline-block;
+	background-image: url("../Images/youtube.png");
+	background-position: 93px 1px;
+	margin-left: -2px;
+}
+#Youtube:hover{
+	background-position: 0px 0px;
+}
+#Steam{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/steam.png");
+	background-position: 42px;
+}
+#Steam:hover{
+	background-position: 0px;
+}
+#Google{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/googleplus.png");
+	background-position: 47px 0px;
+}
+#Google:hover{
+	background-position: 1px 0px;
+}
+#Twitter{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/twitter.png");
+}
+#Twitter:hover{
+	animation: twitter .4s steps(4) infinite;
+}
+#Links{
+	float: right;
+}
+#Links ul a{
+	margin-left: 10px;
+}
+/* Background Animation */
+@keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -2048px 0px;
+	}
+}
+body{
+	background-image: url("../Images/cave2.png");
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+body{
+	animation: Caves .6s steps(4) infinite;
+}

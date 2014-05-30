@@ -1,0 +1,238 @@
+/* New Animation */
+@keyframes Mario2{
+	from{
+		background-position: -3px 28px;
+	}
+	to{
+		background-position: 54px 28px;
+	}
+}
+/*@keyframes jump{
+	from{
+		
+	}
+	to{
+		
+}
+@keyframes jump2{
+	from{
+		margin-bottom: 20px;
+	}
+	to{
+		margin-bottom: 0px;
+	}
+}*/
+#Mario2{
+	margin: 200px 200px;
+}
+/* #yay{
+	height: 22px;
+	width: 20px;
+	display: inline-block;
+	background-image: url("../Images/jump.png");
+	background-position: -3px 0px;
+}
+#yay:hover{
+	animation: Mario2 1s steps(2) 0s normal 1;
+} */
+#Back2{
+	background-image: url("../Images/")
+}
+#Ground2{
+	background-image: url("../Images/")
+}
+#Run{
+	background-image: url("../Images/jump.png");
+	height: 20px;
+	width: 20px;
+}
+/* @keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+#Youtube{
+	height: 40px;
+	width: 84px;
+	display: inline-block;
+	background-image: url("../Images/youtube.png");
+	background-position: 93px 1px;
+}
+#Youtube:hover{
+	background-position: 0px 0px;
+}
+#Steam{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/steam.png");
+	background-position: 42px;
+}
+#Steam:hover{
+	background-position: 0px;
+}
+#Google{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/googleplus.png");
+	background-position: 47px 0px;
+}
+#Google:hover{
+	background-position: 1px 0px;
+}
+#Twitter{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/twitter.png");
+}
+#Twitter:hover{
+	animation: twitter .4s steps(4) infinite;
+} */
+
+/* Mario Animation 
+@keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
+}
+@keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
+}
+@keyframes shrub{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -550px 0px;
+	}
+}
+#Shrub{
+	height: 27px;
+	width: 600px;
+	background-image: url("../Images/shrub.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	z-index: 1000;
+	background-position: 0px 0px;
+	position: absolute;
+	left: 550px;
+	top: 174px;
+}
+#Shrub:hover{
+	animation: shrub 2s linear infinite;
+}
+
+#Mario{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 224px;
+	width: 550px;
+}
+#Character{
+	display: inline-block;
+	background-image: url("../Images/walk.png"); ;
+	height: 23px;
+	width: 19px;
+	text-indent: -9999px;
+	background-position: -5px 0px;
+	
+	position: absolute;
+	float: left;
+	margin-left: 150px;
+	top: 178px;
+}
+#Ground{
+	display: inline-block;
+	background-image: url("../Images/2.png"); ;
+	height: 25px;
+	width: 550px;
+	text-indent: -9999px;
+	background-position: 0px 0px;
+	
+	position: relative;
+	margin-top:  199px;
+}
+#sky{
+	display: inline-block;
+	background-image: url("../Images/sky.png"); ;
+	height: 224px;
+	width: 550px;
+	text-indent: -9999px;
+	background-position: 0px 0px;
+	
+	position: absolute;
+}
+
+#Character{ 
+	animation: Mario .2s steps(2) infinite;
+}
+#Ground{
+	animation: ground 1s linear infinite;
+}
+#sky{
+	animation: sky 18s linear infinite;
+} */
+
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li{
+	Margin: 0;
+	Padding: 0;
+}
+.clear{clear: both}
+body{}
+li{
+	margin-left: 0;
+	text-indent: -9999px;
+	list-style: none;
+}
+
+#Container{
+	margin: 0 auto;
+}
+/*#Container{
+	background-color: #000000;
+	height: 1000px;
+}*/
+
+
+/* Cave Animations */ 
+@keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -2148px 0px;
+	}
+}
+#cave{
+	height: 432px;
+	width:536px;
+	background-image: url("../Images/cave.png");
+	display: inline-block;
+	background-position: 0px 0px
+}
+#cave{
+	animation: Caves .7s steps(4) infinite;
+}
