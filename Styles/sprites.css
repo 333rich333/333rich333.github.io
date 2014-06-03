@@ -4,77 +4,52 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li{
 	Padding: 0;
 }
 .clear{clear: both}
+body{
+	background-image: url("../Images/castle1.png");}
 img{
 	width: 10%;
 }
 li{
 	margin-left: 0;
 }
-/* Background Animation */
-@keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: 2048px 0px;
-	}
-}
-@-webkit-keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: 2048px 0px;
-	}
-}
-@-moz-keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: 2048px 0px;
-	}
-}
+
 #body{
-	background-image: url("../Images/ghost.png");
-	display: inline-block;
-	background-position: 0px 0px;
-	margin: 0px auto;
-	padding: 0;
-}
-#body{
-	animation: Caves .6s steps(4) infinite;
-	-webkit-animation: Caves .6s steps(4) infinite;
-	-moz-animation: Caves .6s steps(4) infinite;
-}
-table{
+	background-color: black;,
 }
 
 #Container{
-	min-width: 800px;
-	position: relative;
-	margin: 0px auto;
-}
-#about{
-	color: #989040;
-}
-#p{
-	color: #C0C078;
-}
-#Title{
-	color: #C0C078;
-	margin: 0px auto;
-	min-width: 800px;
-}
-
-#Top{
-	color: white;
-	width: 100%;
+	background-color: #000000;
+	width: 800px;
+	margin: 0 auto;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 #Top h1 a{
 	text-transform: none;
 	color: white;
 	text-decoration: none;
+}
+#Top{
+	background-color: #000000;
+	color: white;
+	width: 70%;
+	margin-left: 50px;
+}
+.about{
+	color: #C0C078;
+	padding: 5px;
+}
+#about{
+	color: #989040;
+	padding: 5px;
+	margin-left: 50px;
+	margin-right: 40px;
+}
+#Title{
+	color: #C0C078;
+	margin-left: 300px;
+	min-width: 800px;
+	padding: 5px;
 }
 
 #Nav{
@@ -96,15 +71,17 @@ table{
 
 #SideM{
 	width: 70%;
-	margin: 0px auto;
+	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
-}
-#SideM h3{
-	color: #0064B8;
-}
-#SideM{
 	color: #70B0D0;
+}
+#SideM h1{
+	color: #0064B8;
+	font: 50px;
+}
+#SideM p{
+	font: 50px;
 }
 #SideR{
 	float: right;
@@ -131,8 +108,10 @@ table{
 
 #Overworld{
 	text-transform: none;
-	margin-left: 20px;
 	font-size: 26px;
+	float: right;
+	padding-right: 30px;
+	color: #70B0D0;
 }
 
 /* Top Level Nav */
@@ -144,11 +123,14 @@ table{
 	background-color: #0000c3;
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 36px;
 	min-width: 30%;
 	border-right: 3px solid red;
-	border-radius: 25px;
-	margin-left: 12.5%;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-left: 100px;
 	text-indent: 45px;
 	border: 4px solid #000099;
 }
@@ -206,81 +188,42 @@ table{
 	min-width: 300px;
 	min-height: 250px;
 }
-
-/* Media Links */
-@keyframes twitter{
-	to{
+/* Background Animation */
+@keyframes Caves{
+	from{
 		background-position: 0px 0px;
 	}
-	from{
-		background-position: 160px 0px;
+	to{
+		background-position: 2048px 0px;
 	}
 }
-@-webkit-keyframes twitter{
-	to{
+@-webkit-keyframes Caves{
+	from{
 		background-position: 0px 0px;
 	}
-	from{
-		background-position: 160px 0px;
+	to{
+		background-position: 2048px 0px;
 	}
 }
-@-moz-keyframes twitter{
-	to{
+@-moz-keyframes Caves{
+	from{
 		background-position: 0px 0px;
 	}
-	from{
-		background-position: 160px 0px;
+	to{
+		background-position: 2048px 0px;
 	}
 }
-#Youtube{
-	height: 40px;
-	width: 84px;
-	display: inline-block;
-	background-image: url("../Images/youtube.png");
-	background-position: 93px 1px;
-	margin-left: -2px;
-}
-#Youtube:hover{
+body{
+	background-image: url("../Images/ghost.png");
 	background-position: 0px 0px;
+	margin: 0px auto;
+	padding: 0;
 }
-#Steam{
-	height: 40px;
-	width: 40px;
-	display: inline-block;
-	background-image: url("../Images/steam.png");
-	background-position: 42px;
+body{
+	animation: Caves .6s steps(4) infinite;
+	-webkit-animation: Caves .6s steps(4) infinite;
+	-moz-animation: Caves .6s steps(4) infinite;
 }
-#Steam:hover{
-	background-position: 0px;
-}
-#Google{
-	height: 40px;
-	width: 40px;
-	display: inline-block;
-	background-image: url("../Images/googleplus.png");
-	background-position: 47px 0px;
-}
-#Google:hover{
-	background-position: 1px 0px;
-}
-#Twitter{
-	height: 40px;
-	width: 40px;
-	display: inline-block;
-	background-image: url("../Images/twitter.png");
-}
-#Twitter:hover{
-	animation: twitter .4s steps(4) infinite;
-	-webkit-animation: twitter .4s steps(4) infinite;
-	-moz-animation: twitter .4s steps(4) infinite;
-}
-#Links{
-	float: right;
-}
-#Links ul a{
-	margin-left: 10px;
-}
-
 /* Mario Animation */
 @keyframes Mario{
 	from{
@@ -373,7 +316,7 @@ table{
 	position: absolute;
 	float: left;
 	margin-left: 200px;
-	top: 246px;
+	top: 334px;
 }
 #Ground{
 	display: inline-block;
@@ -412,8 +355,83 @@ table{
 	-webkit-animation: sky 18s linear infinite;
 	-moz-animation: sky 18s linear infinite;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-/* Safari and Chrome */
-#Character {
- top: 242px;
+/* Iphone 11px down*/ 
+@media screen and (max-device-width: 480px) {
+ #Character{
+ 	top: 345px;
+ }
+}
+/* Media Links */
+@keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+@-webkit-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+@-moz-keyframes twitter{
+	to{
+		background-position: 0px 0px;
+	}
+	from{
+		background-position: 160px 0px;
+	}
+}
+#Youtube{
+	height: 40px;
+	width: 84px;
+	display: inline-block;
+	background-image: url("../Images/youtube.png");
+	background-position: 93px 1px;
+	margin-left: -2px;
+}
+#Youtube:hover{
+	background-position: 0px 0px;
+}
+#Steam{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/steam.png");
+	background-position: 42px;
+}
+#Steam:hover{
+	background-position: 0px;
+}
+#Google{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/googleplus.png");
+	background-position: 47px 0px;
+}
+#Google:hover{
+	background-position: 1px 0px;
+}
+#Twitter{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-image: url("../Images/twitter.png");
+}
+#Twitter:hover{
+	animation: twitter .4s steps(4) infinite;
+	-webkit-animation: twitter .4s steps(4) infinite;
+	-moz-animation: twitter .4s steps(4) infinite;
+}
+#Links{
+	float: right;
+	margin-right: 15px;
+}
+#Links ul a{
+	margin-left: 10px;
 }

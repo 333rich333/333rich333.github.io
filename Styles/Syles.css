@@ -102,7 +102,6 @@
 	z-index: 12;
 	position: relative;
 	margin-top:  199px;
-	margin
 }
 #sky{
 	display: inline-block;
@@ -147,19 +146,27 @@ li{
 }
 
 #body{
-	background-color: black;
+	background-color: black;,
 }
 
 #Container{
 	background-color: #3E4F60;
 	width: 800px;
 	margin: 0 auto;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+#Top h1 a{
+	text-transform: none;
+	color: white;
+	text-decoration: none;
 }
 
 #Top{
 	background-color: #3E4F60;
 	color: white;
-	width: 100%;
+	width: 70%;
+	margin-left: 50px;
 }
 
 #Nav{
@@ -181,15 +188,17 @@ li{
 
 #SideM{
 	width: 70%;
-	margin: 0px auto;
+	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
-}
-#SideM h3{
-	color: #0064B8;
-}
-#SideM{
 	color: #70B0D0;
+}
+#SideM h1{
+	color: #0064B8;
+	font: 50px;
+}
+#SideM p{
+	font: 50px;
 }
 #SideR{
 	float: right;
@@ -216,8 +225,10 @@ li{
 
 #Overworld{
 	text-transform: none;
-	margin-left: 20px;
 	font-size: 26px;
+	float: right;
+	padding-right: 30px;
+	color: #70B0D0;
 }
 
 /* Top Level Nav */
@@ -229,11 +240,14 @@ li{
 	background-color: #0000c3;
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 36px;
 	min-width: 30%;
 	border-right: 3px solid red;
-	border-radius: 25px;
-	margin-left: 35%;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 20px;
+	margin-left: 100px;
 	text-indent: 45px;
 	border: 4px solid #000099;
 }
@@ -361,7 +375,14 @@ li{
 }
 #Links{
 	float: right;
+	margin-right: 15px;
 }
 #Links ul a{
 	margin-left: 10px;
+}
+/* Iphone 11px down*/ 
+@media screen and (max-device-width: 480px) {
+ #Character{
+ 	top: 253px;
+ }
 }

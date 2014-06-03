@@ -4,35 +4,79 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li{
 	Padding: 0;
 }
 .clear{clear: both}
-body{
-	background-image: url("../Images/cave2.png");
-	animation: Caves .6s steps(4) infinite;
-	-webkit-animation: Caves .6s steps(4) infinite;
-	-moz-animation: Caves .6s steps(4) infinite;}
 img{
 	width: 10%;
 }
 li{
 	margin-left: 0;
 }
-
+/* Background Animation */
+@keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 2048px 0px;
+	}
+}
+@-webkit-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 2048px 0px;
+	}
+}
+@-moz-keyframes Caves{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: 2048px 0px;
+	}
+}
 #body{
-	background-color: black;,
+	background-image: url("../Images/ghost.png");
+	display: inline-block;
+	background-position: 0px 0px;
+	margin: 0px auto;
+	padding: 0;
+	background-color: #283048;
+}
+#body{
+	animation: Caves .6s steps(4) infinite;
+	-webkit-animation: Caves .6s steps(4) infinite;
+	-moz-animation: Caves .6s steps(4) infinite;
+}
+table{
+	background-color: #283048;
 }
 
 #Container{
-	background-color: #001820;
-	width: 800px;
-	margin: 0 auto;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
+	background-color: #283048;
+	min-width: 800px;
+	position: relative;
+	margin: 0px auto;
+}
+#about{
+	color: #989040;
+	background-color: #283048;
+}
+#p{
+	color: #C0C078;
+	background-color: #283048;
+}
+#Title{
+	color: #C0C078;
+	background-color: #283048;
+	margin: 0px auto;
+	min-width: 800px;
 }
 
 #Top{
-	background-color: #001820;
+	background-color: #283048;
 	color: white;
-	width: 70%;
-	margin-left: 50px;
+	width: 100%;
 }
 #Top h1 a{
 	text-transform: none;
@@ -59,17 +103,15 @@ li{
 
 #SideM{
 	width: 70%;
-	margin: 0 auto;
+	margin: 0px auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	color: #70B0D0;
 }
-#SideM h1{
+#SideM h3{
 	color: #0064B8;
-	font: 50px;
 }
-#SideM p{
-	font: 50px;
+#SideM{
+	color: #70B0D0;
 }
 #SideR{
 	float: right;
@@ -96,24 +138,10 @@ li{
 
 #Overworld{
 	text-transform: none;
+	margin-left: 20px;
 	font-size: 26px;
-	float: right;
-	padding-right: 30px;
-	color: #70B0D0;
 }
-/* About Document */
-#site{
-	margin-left: 37%;
-	color: #585048;
-}
-#me{
-	margin-left: 29%;
-	color: #585048;
-}
-#faq{
-	margin-left: 34%;
-	color: #585048;
-}
+
 /* Top Level Nav */
 #Nav ul{}
 #Nav ul li{
@@ -123,14 +151,11 @@ li{
 	background-color: #0000c3;
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 40px;
 	min-width: 30%;
 	border-right: 3px solid red;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	margin-left: 100px;
+	border-radius: 25px;
+	margin-left: 12.5%;
 	text-indent: 45px;
 	border: 4px solid #000099;
 }
@@ -147,7 +172,6 @@ li{
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
-	text-indent: 10px;
 }
 #Nav ul li:hover{
 	color: white;
@@ -259,44 +283,140 @@ li{
 }
 #Links{
 	float: right;
-	margin-right: 20px;
 }
 #Links ul a{
 	margin-left: 10px;
 }
-#mail{
-	display: inline-block;
-	background-image: url("../Images/gmail.png");
-	height: 40px;
-	width: 53px;
-	background-position: 0px 0px;
+
+/* Mario Animation */
+@keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
 }
-#mail:hover{
-	background-position: 55px;
+@keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
+}
+@-webkit-keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
+}
+@-moz-keyframes Mario{
+	from{
+		background-position: -5px 0px;
+	}
+	to{
+		background-position: 77px 0px;
+	}
+}
+@-webkit-keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@-moz-keyframes ground{
+	from{
+		background-position: 0px 0px;
+	}
+	to{
+		background-position: -68px 0px;
+	}
+}
+@-webkit-keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
+}
+@-moz-keyframes sky{
+	from{
+		background-position: 511px 0px;
+	}
+	to{
+		background-position: 0px 0px;
+	}
 }
 
-/* Background Animation */
-@keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: -2048px 0px;
-	}
+#Mario{
+	list-style: none;
+	margin: auto;
+	padding: 0;
+	height: 224px;
+	width: 800px;
 }
-@-webkit-keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: -2048px 0px;
-	}
+#Character{
+	display: inline-block;
+	background-image: url("../Images/walk.png"); ;
+	height: 23px;
+	width: 19px;
+	text-indent: -9999px;
+	background-position: -5px 0px;
+	z-index: 13;
+	position: absolute;
+	float: left;
+	margin-left: 200px;
+	top: 266px;
 }
-@-moz-keyframes Caves{
-	from{
-		background-position: 0px 0px;
-	}
-	to{
-		background-position: -2048px 0px;
-	}
+#Ground{
+	display: inline-block;
+	background-image: url("../Images/2.png"); ;
+	height: 25px;
+	width: 800px;
+	text-indent: -9999px;
+	background-position: 0px 0px;
+	z-index: 12;
+	position: relative;
+	margin-top:  199px;
+	margin
+}
+#sky{
+	display: inline-block;
+	background-image: url("../Images/sky.png"); ;
+	height: 224px;
+	width: 800px;
+	text-indent: -9999px;
+	background-position: 0px 0px;
+	z-index: 11;
+	position: absolute;
+}
+
+#Character{ 
+	animation: Mario .2s steps(2) infinite;
+	-webkit-animation: Mario .2s steps(2) infinite;
+	-moz-animation: Mario .2s steps(2) infinite;
+}
+#Ground{
+	animation: ground 1s linear infinite;
+	-webkit-animation: ground 1s linear infinite;
+	-moz-animation: ground 1s linear infinite;
+}
+#sky{
+	animation: sky 18s linear infinite;
+	-webkit-animation: sky 18s linear infinite;
+	-moz-animation: sky 18s linear infinite;
 }
