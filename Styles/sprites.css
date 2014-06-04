@@ -355,10 +355,10 @@ body{
 	-webkit-animation: sky 18s linear infinite;
 	-moz-animation: sky 18s linear infinite;
 }
-/* Iphone 11px down*/ 
+/* Iphone */ 
 @media screen and (max-device-width: 480px) {
  #walk{
- 	top: 1000px;
+ 	top: 0px;
  }
 }
 /* Chrome */
