@@ -358,7 +358,7 @@ body{
 /* Iphone 11px down*/ 
 @media screen and (max-device-width: 480px) {
  #Character{
- 	top: 360px;
+ 	top: 450px;
  }
 }
 /* Chrome */
