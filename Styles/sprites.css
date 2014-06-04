@@ -358,8 +358,14 @@ body{
 /* Iphone 11px down*/ 
 @media screen and (max-device-width: 480px) {
  #Character{
- 	top: 345px;
+ 	top: 360px;
  }
+}
+/* Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {    
+	#Character {
+		top: 330px;
+	}      
 }
 /* Media Links */
 @keyframes twitter{
