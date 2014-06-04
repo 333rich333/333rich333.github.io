@@ -358,7 +358,7 @@ body{
 /* Iphone 11px down*/ 
 @media screen and (max-device-width: 480px) {
  #walk{
- 	top: 500px;
+ 	top: 1000px;
  }
 }
 /* Chrome */
