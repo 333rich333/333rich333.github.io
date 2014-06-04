@@ -254,7 +254,7 @@ li{
 	height: 224px;
 	width: 800px;
 }
-#Character{
+#walk{
 	display: inline-block;
 	background-image: url("../Images/walk.png"); ;
 	height: 23px;
@@ -289,7 +289,7 @@ li{
 	position: absolute;
 }
 
-#Character{ 
+#walk{ 
 	animation: Mario .2s steps(2) infinite;
 	-webkit-animation: Mario .2s steps(2) infinite;
 	-moz-animation: Mario .2s steps(2) infinite;
@@ -305,10 +305,10 @@ li{
 	-moz-animation: sky 18s linear infinite;
 }
 
-/* Iphone 11px down*/ 
+/* Iphone*/ 
 @media screen and (max-device-width: 480px) {
- #Character{
- 	top: 300px;
+ #walk{
+ 	top: 282px;
  }
 }
 /* Media Links */

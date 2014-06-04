@@ -305,7 +305,7 @@ body{
 	height: 224px;
 	width: 800px;
 }
-#Character{
+#walk{
 	display: inline-block;
 	background-image: url("../Images/walk.png"); ;
 	height: 23px;
@@ -340,7 +340,7 @@ body{
 	position: absolute;
 }
 
-#Character{ 
+#walk{ 
 	animation: Mario .2s steps(2) infinite;
 	-webkit-animation: Mario .2s steps(2) infinite;
 	-moz-animation: Mario .2s steps(2) infinite;
@@ -357,13 +357,13 @@ body{
 }
 /* Iphone 11px down*/ 
 @media screen and (max-device-width: 480px) {
- #Character{
- 	top: 450px;
+ #walk{
+ 	top: 500px;
  }
 }
 /* Chrome */
 @media screen and (-webkit-min-device-pixel-ratio:0) {    
-	#Character {
+	#walk{
 		top: 330px;
 	}      
 }
