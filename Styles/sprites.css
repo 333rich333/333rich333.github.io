@@ -355,17 +355,17 @@ body{
 	-webkit-animation: sky 18s linear infinite;
 	-moz-animation: sky 18s linear infinite;
 }
-/* Iphone */ 
-@media screen and (max-device-width: 480px) {
- #walk{
- 	top: 0px;
- }
-}
 /* Chrome */
 @media screen and (-webkit-min-device-pixel-ratio:0) {    
 	#walk{
 		top: 330px;
 	}      
+}
+/* Iphone */ 
+@media screen and (max-device-width: 480px) {
+ #walk{
+ 	top: 0px;
+ }
 }
 /* Media Links */
 @keyframes twitter{

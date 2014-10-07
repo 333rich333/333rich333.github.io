@@ -53,7 +53,11 @@ li{
 	float: left;
 	width: 15%;
 }
-
+#Channel{
+	color: #70B0D0
+	underline: none;
+	text-transform: none;
+}
 #SideM{
 	width: 70%;
 	margin: 0 auto;

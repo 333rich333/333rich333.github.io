@@ -209,7 +209,7 @@ li{
 }
 
 #Container{
-	margin: 0 auto;
+	margin: 0 0;
 }
 /*#Container{
 	background-color: #000000;
@@ -217,7 +217,7 @@ li{
 }*/
 
 
-/* Cave Animations */ 
+/* Cave Animations 
 @keyframes Caves{
 	from{
 		background-position: 0px 0px;
@@ -235,4 +235,24 @@ li{
 }
 #cave{
 	animation: Caves .7s steps(4) infinite;
+}*/
+
+/* Samus's Ship Animation */
+
+#Ship{
+	margin-top: 20px;
+	height: 86px;
+	width: 189px;
+	display: inline-block;
+	background-position: 0 0;
+	background-image: url("../Images/ship.png");
+}
+#Samus{
+	left: 20px;
+	margin-top: 20px;
+	height: 48px;
+	width: 24px;
+	background-position: 0px 0px;
+	display: inline-block;
+	background-image: url("../Images/samus.png")
 }
